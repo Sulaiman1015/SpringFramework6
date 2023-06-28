@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean name="personBean" class="com.sm.bean.Person">
+        <property name="names">
+            <list>
+                <value>Tonny</value>
+                <value>Cindy</value>
+            </list>
+        </property>
+        <property name="addrs">
+            <set>
+                <value>Paris</value>
+                <value>Nice</value>
+            </set>
+        </property>
+        <property name="contact">
+            <map>
+                <entry key="Tonny" value="123"/>
+                <entry key="Cindy" value="456"/>
+            </map>
+        </property>
+    </bean>
+</beans>

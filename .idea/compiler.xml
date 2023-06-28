@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring6-004-factoryPattern" />
+        <module name="spring6-007-iocAnnotation" />
+        <module name="spring6-008-proxyPattern" />
+        <module name="spring6-005-lifecycle" />
+        <module name="spring6-002-dependencyInjection" />
+        <module name="spring6-003-beanScope" />
+        <module name="spring6-006-circularDependency" />
+        <module name="spring6-001" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring6-001" target="17" />
+      <module name="spring6-002-dependencyInjection" target="17" />
+      <module name="spring6-003-beanScope" target="17" />
+      <module name="spring6-004-factoryPattern" target="17" />
+      <module name="spring6-005-lifecycle" target="17" />
+      <module name="spring6-006-circularDependency" target="17" />
+      <module name="spring6-007-iocAnnotation" target="17" />
+      <module name="spring6-008-proxyPattern" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

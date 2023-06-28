@@ -1,0 +1,9 @@
+# Project exclude paths
+/spring6-001/target/
+/spring6-002-dependencyInjection/target/
+/spring6-003-beanScope/target/
+/spring6-004-factoryPattern/target/
+/spring6-005-lifecycle/target/
+/spring6-006-circularDependency/target/
+/spring6-007-iocAnnotation/target/
+/spring6-008-proxyPattern/target/

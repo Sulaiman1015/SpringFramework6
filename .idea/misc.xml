@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/spring6-001/pom.xml" />
+        <option value="$PROJECT_DIR$/spring6-002-dependencyInjection/pom.xml" />
+        <option value="$PROJECT_DIR$/spring6-003-beanScope/pom.xml" />
+        <option value="$PROJECT_DIR$/spring6-004-factoryPattern/pom.xml" />
+        <option value="$PROJECT_DIR$/spring6-005-lifecycle/pom.xml" />
+        <option value="$PROJECT_DIR$/spring6-006-circularDependency/pom.xml" />
+        <option value="$PROJECT_DIR$/spring6-007-iocAnnotation/pom.xml" />
+        <option value="$PROJECT_DIR$/spring6-008-proxyPattern/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

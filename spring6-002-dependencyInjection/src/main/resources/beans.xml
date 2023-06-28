@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--all following bean is simple type like string int etc-->
+    <bean id="orderBean" class="com.sm.bean.Order">
+        <property name="product" value="computer"/>
+        <property name="price" value="1500"/>
+    </bean>
+    <bean id="myDataSourceBean" class="com.sm.jdbc.MyDataSource">
+        <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost:3305/spring6"/>
+        <property name="username" value="root"/>
+        <property name="password" value="123"/>
+    </bean>
+
+    <!--all following beans are reference type-->
+    <bean id="userDaoBean" class="com.sm.dao.UserDao"/>
+    <bean id="userServiceBean" class="com.sm.service.UserService">
+        <property name="userDao" ref="userDaoBean"/>
+    </bean>
+
+    <bean id="vipDaoBean" class="com.sm.dao.VipDao"/>
+    <bean id="vipServiceBean" class="com.sm.service.VipService">
+        <!--<constructor-arg index="0" ref="vipDaoBean"/>-->
+        <constructor-arg name="vipDao" ref="vipDaoBean"/>
+    </bean>
+</beans>
