@@ -10,6 +10,9 @@
       <module fileurl="file://$PROJECT_DIR$/spring6-006-circularDependency/spring6-006-circularDependency.iml" filepath="$PROJECT_DIR$/spring6-006-circularDependency/spring6-006-circularDependency.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring6-007-iocAnnotation/spring6-007-iocAnnotation.iml" filepath="$PROJECT_DIR$/spring6-007-iocAnnotation/spring6-007-iocAnnotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring6-008-proxyPattern/spring6-008-proxyPattern.iml" filepath="$PROJECT_DIR$/spring6-008-proxyPattern/spring6-008-proxyPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring6-009-aopAnnotation/spring6-009-aopAnnotation.iml" filepath="$PROJECT_DIR$/spring6-009-aopAnnotation/spring6-009-aopAnnotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring6-010-aopXML/spring6-010-aopXML.iml" filepath="$PROJECT_DIR$/spring6-010-aopXML/spring6-010-aopXML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring6-011-aopAppDemo/spring6-011-aopAppDemo.iml" filepath="$PROJECT_DIR$/spring6-011-aopAppDemo/spring6-011-aopAppDemo.iml" />
     </modules>
   </component>
 </project>
