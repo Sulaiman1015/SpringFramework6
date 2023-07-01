@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring6-009-aopAnnotation/spring6-009-aopAnnotation.iml" filepath="$PROJECT_DIR$/spring6-009-aopAnnotation/spring6-009-aopAnnotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring6-010-aopXML/spring6-010-aopXML.iml" filepath="$PROJECT_DIR$/spring6-010-aopXML/spring6-010-aopXML.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring6-011-aopAppDemo/spring6-011-aopAppDemo.iml" filepath="$PROJECT_DIR$/spring6-011-aopAppDemo/spring6-011-aopAppDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring6-012-transactionBank/spring6-012-transactionBank.iml" filepath="$PROJECT_DIR$/spring6-012-transactionBank/spring6-012-transactionBank.iml" />
     </modules>
   </component>
 </project>

@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring6-004-factoryPattern" />
+        <module name="spring6-012-transactionBank" />
         <module name="spring6-011-aopAppDemo" />
         <module name="spring6-010-aopXML" />
         <module name="spring6-007-iocAnnotation" />
@@ -31,6 +32,7 @@
       <module name="spring6-009-aopAnnotation" target="17" />
       <module name="spring6-010-aopXML" target="17" />
       <module name="spring6-011-aopAppDemo" target="17" />
+      <module name="spring6-012-transactionBank" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
