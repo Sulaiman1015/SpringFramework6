@@ -3,5 +3,5 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:c="http://www.springframework.org/schema/c"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean id="peopleBean" class="com.sm.bean.People" c:name="Tom" c:age="31" c:sex="true"/>
+    <bean id="peopleBean" class="com.sm.validation.byInterface.People" c:name="Tom" c:age="31" c:sex="true"/>
 </beans>

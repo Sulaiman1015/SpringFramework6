@@ -1,7 +1,7 @@
 package com.sm;
 
-import com.sm.bean.CustomScope;
-import com.sm.bean.ScopeBean;
+import com.sm.validation.byInterface.CustomScope;
+import com.sm.validation.byInterface.ScopeBean;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

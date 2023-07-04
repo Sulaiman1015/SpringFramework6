@@ -2,7 +2,7 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean name="personBean" class="com.sm.bean.Person">
+    <bean name="personBean" class="Person">
         <property name="names">
             <list>
                 <value>Tonny</value>

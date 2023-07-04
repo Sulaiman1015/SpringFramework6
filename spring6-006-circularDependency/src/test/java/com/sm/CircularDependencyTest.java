@@ -1,8 +1,8 @@
 package com.sm;
 
 
-import com.sm.bean.setterMode.Husband;
-import com.sm.bean.setterMode.Wife;
+import com.sm.validation.byInterface.setterMode.Husband;
+import com.sm.validation.byInterface.setterMode.Wife;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

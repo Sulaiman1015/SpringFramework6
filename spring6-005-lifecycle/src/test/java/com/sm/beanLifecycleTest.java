@@ -1,7 +1,7 @@
 package com.sm;
 
-import com.sm.bean.User;
-import com.sm.bean.Vip;
+import com.sm.validation.byInterface.User;
+import com.sm.validation.byInterface.Vip;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

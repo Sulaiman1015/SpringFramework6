@@ -1,9 +1,9 @@
 package com.sm;
 
-import com.sm.bean.Order;
-import com.sm.bean.People;
-import com.sm.bean.Person;
-import com.sm.bean.User;
+import com.sm.validation.byInterface.Order;
+import com.sm.validation.byInterface.People;
+import com.sm.validation.byInterface.Person;
+import com.sm.validation.byInterface.User;
 import com.sm.jdbc.MyDataSource;
 import com.sm.jdbc.MyDataSource1;
 import com.sm.jdbc.MyDataSource2;

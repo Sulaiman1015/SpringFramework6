@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring6-014-validator" />
         <module name="spring6-005-lifecycle" />
         <module name="spring6-002-dependencyInjection" />
         <module name="spring6-004-factoryPattern" />
@@ -35,6 +36,7 @@
       <module name="spring6-011-aopAppDemo" target="17" />
       <module name="spring6-012-transactionBank" target="17" />
       <module name="spring6-013-i18n" target="17" />
+      <module name="spring6-014-validator" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

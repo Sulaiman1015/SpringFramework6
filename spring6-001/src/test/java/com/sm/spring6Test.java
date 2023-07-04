@@ -1,6 +1,6 @@
 package com.sm;
 
-import com.sm.bean.User;
+import com.sm.validation.byInterface.User;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

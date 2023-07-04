@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!--all following bean is simple type like string int etc-->
-    <bean id="orderBean" class="com.sm.bean.Order">
+    <bean id="orderBean" class="com.sm.validation.byInterface.Order">
         <property name="product" value="computer"/>
         <property name="price" value="1500"/>
     </bean>

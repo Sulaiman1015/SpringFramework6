@@ -3,6 +3,6 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean id="vipBean" class="com.sm.beans.Vip"/>
-    <bean id="userBean" class="com.sm.bean.User"/>
+    <bean id="userBean" class="User"/>
     <bean id="timeBean" class="java.util.Date"/>
 </beans>

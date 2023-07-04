@@ -8,11 +8,11 @@
     there is exception when prototype + setter.
     if one singleton with another prototype, circular dependency correct.
     -->
-    <bean id="husbandBean" class="com.sm.bean.setterMode.Husband" scope="singleton">
+    <bean id="husbandBean" class="com.sm.validation.byInterface.setterMode.Husband" scope="singleton">
         <property name="name" value="Jackson"/>
         <property name="wife" ref="wifeBean"/>
     </bean>
-    <bean id="wifeBean" class="com.sm.bean.setterMode.Wife" scope="prototype">
+    <bean id="wifeBean" class="com.sm.validation.byInterface.setterMode.Wife" scope="prototype">
         <property name="name" value="Cindy"/>
         <property name="husband" ref="husbandBean"/>
     </bean>

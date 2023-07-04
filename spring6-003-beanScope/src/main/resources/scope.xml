@@ -12,6 +12,6 @@
             </map>
         </property>
     </bean>
-    <bean id="customScopeBean" class="com.sm.bean.CustomScope" scope="threadScope"/>
-    <bean id="scopeBean" class="com.sm.bean.ScopeBean" scope="prototype"/>
+    <bean id="customScopeBean" class="com.sm.validation.byInterface.CustomScope" scope="threadScope"/>
+    <bean id="scopeBean" class="com.sm.validation.byInterface.ScopeBean" scope="prototype"/>
 </beans>

@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring6-011-aopAppDemo/spring6-011-aopAppDemo.iml" filepath="$PROJECT_DIR$/spring6-011-aopAppDemo/spring6-011-aopAppDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring6-012-transactionBank/spring6-012-transactionBank.iml" filepath="$PROJECT_DIR$/spring6-012-transactionBank/spring6-012-transactionBank.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring6-013-i18n/spring6-013-i18n.iml" filepath="$PROJECT_DIR$/spring6-013-i18n/spring6-013-i18n.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring6-014-validator/spring6-014-validator.iml" filepath="$PROJECT_DIR$/spring6-014-validator/spring6-014-validator.iml" />
     </modules>
   </component>
 </project>
